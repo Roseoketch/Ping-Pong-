@@ -4,10 +4,10 @@
 ## Description
 It displays numbers that are before the entered number and related feedback, either ping, or pong nor both ping-pong
 ## Setup/Installation Requirements
-* Tools used HTML, CSS, jquery, bootstrap and partly scripts
-* Should always have positive feedback
-* Must to play the game
+* Tools used HTML, CSS, jquery, bootstrap and partly scripts.
+* Should always have positive feedback.
+* Must to play the game.
 ## Known Bugs
-No bugs. You can get to the game via link https://github.com/Roseoketch/Ping-Pong-.git
+No bugs. You can get to the game via link: https://github.com/Roseoketch/Ping-Pong-.git
 ### License
 Copyright (c) 2018 Moringa school
