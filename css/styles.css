@@ -1,0 +1,13 @@
+.jumbotron {
+  text-align: center;
+  background-color: #F5CBA7;
+  font-size: 200%;
+}
+
+h1 {
+  color: gold;
+}
+
+#display {
+  padding-right: -120px;
+}

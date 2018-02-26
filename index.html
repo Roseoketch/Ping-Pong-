@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--load bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+  <!--load css-->
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <!--load google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+  <title>Ping-Pong</title>
+</head>
+
+<body>
+  <!--add header -->
+  <div class="pageWrapper" style="background-color: grey;">
+    <header class="jumbotron">Ping-Pong</header>
+    <!--End header section-->
+
+    <div class="container">
+      <div class="row">
+        <!--Side bar on left-->
+        <div class="col-md-4" style="color: black;">
+          <h1>About ping pong:</h1>
+          <h3 id="xn1">Created By: </h3>
+          <p>Rose Oketch</p>
+              <h2 id="xn2">GitHub User Url:</h2>
+              <p> Roseoketch</p>
+              <h3 id="xn3">Level Two Test For:</h3>
+              <p>Javascript</p>
+        </div>
+
+        <div class="col-md-4">
+          <!-- add a list-->
+          <form id="pingPongForm">
+            <h1>Let's play!</h1>
+            <h2>Rules!</h2>
+            <p>PingPong will count your number with the following exceptions</p>
+            <ol>
+              <li>Numbers divisible by 3 are replaced with "ping"</li>
+              <li>Numbers divisible by 5 are replaced with "pong"</li>
+              <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+            </ol>
+            <!--form starts here-->
+            <div class="form-group">
+              <form>
+              <label for="number">Enter your number please:</label>
+              <input id="number" class="formcontrol" required=" " type="text "></input>
+              <button class="btn">Ping-Pong!</button>
+            </div>
+            <div id="userOutput"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--End page wrapper-->
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
