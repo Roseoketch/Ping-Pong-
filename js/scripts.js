@@ -9,7 +9,7 @@ $(document).ready(function() {
     // $(".#userOutput").animate("url('')")
     event.preventDefault();
   });
-  alert("pingpong");
+  // alert("pingpong");
 });
 });
 
