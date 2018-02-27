@@ -16,7 +16,7 @@ $(document).ready(function() {
 //business
 function pingPongFun(userInput){
 var result = [];
-for (var i = 1; i <= userInput; i++){
+for (var i = 1; i <= 300; i++){
   if ((i % 15) === 0){
     result.push ("Ping-Pong");
   } else if ((i % 5) === 0){
